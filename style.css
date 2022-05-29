@@ -92,9 +92,16 @@ body {
     color: #1F2937;
 }
 
-.content-3 {
+.content-3-background {
     background-color: #E5E7EB;
+    width: 100%;
+    justify-content: center;
+}
+
+.content-3 {
     align-items: flex-end;
+    max-width: 75em;
+    padding: 64px 16px;
 }
 
 .quote {
