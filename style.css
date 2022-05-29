@@ -153,12 +153,29 @@ body {
     gap: 24px;
 }
 
+.content-4 {
+    width: 100%;
+    justify-content: center;
+    padding: 96px 0;
+}
+
 .content-4-1 {
     background: #3882F6;
+    width: 100%;
+    max-width: 50em;
+    justify-content: space-between;
+    padding: 40px 96px;
+    border-radius: 5px;
+    align-items: center;
 }
 
 .content-4 button {
     background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 6px 24px;
+    font-weight: bold;
 }
 
 .content-4-1-1 {
@@ -167,6 +184,8 @@ body {
 
 .content-4-1-1-header {
     color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .content-4-1-1-text {
