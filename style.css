@@ -16,17 +16,23 @@ body {
 .content-1 h1 {
     font-size: 48px;
     font-weight: extra-bold; /* CHANGE ME */
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin: 0;
 }
 
 .content-1-1 {
     align-items: flex-start;
+    flex: initial;
+    width: 100%;
+    gap: 2px;
 }
 
 img {
     background-color: gray;
     color: #F9FAF8;
     text-align: center;
+    flex: initial;
+    width: 100%;
 }
 
 .content-1 p, .header-links ul {
@@ -34,9 +40,18 @@ img {
     color: #E5E7EB
 }
 
+.content-1 p {
+    margin: 0;
+}
+
 .content-1 button {
     background-color: #3882F6;
-    color: #F9FAF8
+    color: #F9FAF8;
+    padding: 6px 24px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .content-2 h2 {
@@ -86,7 +101,16 @@ img {
 }
 
 .content-1 {
+    padding: 96px 16px;
+    width: 100%;
+    max-width: 75em;
+    gap: 64px;
+}
+
+.content-1-background {
     background-color: #1F2937;
+    justify-content: center;
+    width: 100%;
 }
 
 .header-links ul {
