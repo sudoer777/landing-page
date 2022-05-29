@@ -5,6 +5,7 @@ body, div, .header-links ul {
 body {
     flex-direction: column;
     font-family: sans-serif; /* CHANGE ME */
+    margin: 0;
 }
 
 .content, .content-1-1, .content-2, .content-3, .content-4-1-1 {
@@ -73,7 +74,15 @@ img {
 .header {
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 75em;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header-background {
     background-color: #1F2937;
+    justify-content: center;
 }
 
 .content-1 {
@@ -82,6 +91,7 @@ img {
 
 .header-links ul {
     list-style-type: none;
+    gap: 24px;
 }
 
 .content-4-1 {
