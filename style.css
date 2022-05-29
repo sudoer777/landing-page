@@ -4,6 +4,7 @@ body, div, .header-links ul {
 
 body {
     flex-direction: column;
+    font-family: sans-serif; /* CHANGE ME */
 }
 
 .content, .content-1-1, .content-2, .content-3, .content-4-1-1 {
@@ -11,15 +12,100 @@ body {
     align-items: center;
 }
 
+.content-1 h1 {
+    font-size: 48px;
+    font-weight: extra-bold; /* CHANGE ME */
+    color: #F9FAF8
+}
+
+.content-1-1 {
+    align-items: flex-start;
+}
+
+img {
+    background-color: gray;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.content-1 p, .header-links ul {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.content-1 button {
+    background-color: #3882F6;
+    color: #F9FAF8
+}
+
+.content-2 h2 {
+    font-size: 36px;
+    font-weight: extra-bold; /* CHANGE ME */
+    color: #1F2937;
+}
+
+.subtext {
+    color: #1F2937;
+}
+
+.content-3 {
+    background-color: #E5E7EB;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic; /* CHANGE ME */
+    color: #1F2937;
+}
+
+.quote-attribution {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.header span {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .header {
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
+}
+
+.content-1 {
+    background-color: #1F2937;
 }
 
 .header-links ul {
     list-style-type: none;
 }
 
+.content-4-1 {
+    background: #3882F6;
+}
+
+.content-4 button {
+    background: #3882F6;
+}
+
+.content-4-1-1 {
+    align-items: flex-start;
+}
+
+.content-4-1-1-header {
+    color: #F9FAF8;
+}
+
+.content-4-1-1-text {
+    color: #E5E7EB;
+}
+
 .footer {
     justify-content: center;
+    background: #1F2937;
+    color: #E5E7EB;
 }
