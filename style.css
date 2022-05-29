@@ -156,7 +156,8 @@ body {
 .content-4 {
     width: 100%;
     justify-content: center;
-    padding: 96px 0;
+    box-sizing: border-box;
+    padding: 96px 16px;
 }
 
 .content-4-1 {
